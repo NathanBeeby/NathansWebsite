@@ -1,0 +1,78 @@
+﻿.navbar-collapse collapse {
+    background-color: #020211;
+}
+body {
+    background-color: #000000;
+    background-image: linear-gradient(to right, #000000, #1a1a1a, #000000);
+    margin-top:50px;
+}
+
+
+.NavButton {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold; }
+  .NavButton:hover {
+    color: #fff;
+   background-color:rgba(0,61,102, 0.3); }
+
+.navbar-nav > li > a {
+    display:inline-block;
+    padding-left:40px;
+    padding-right:40px;
+    &:hover{
+        background-color:rgba(0,61,102, 0.3);
+    }
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+     &:focus{
+    background-color:rgba(0,61,102, 0.3);
+    color:white;
+    }
+}
+.dropdown-menu{
+    margin-top:15px;
+    padding-top:0px;
+    padding-bottom:0px;
+    background-color:rgba(0,0,0,0);
+    border:1px solid black;
+    box-shadow: 5px 5px 5px black;
+}
+
+.dropdown-item{
+    &:hover{
+       color:#001f33;
+        background-color:#000f1a;
+    }
+}
+
+.NavColor {
+    background-color:rgba(0, 61, 102, 0.3);
+    background-image: linear-gradient(#000000, #1a1a1a, #000000);
+    border-bottom:1px solid #000f1a;
+}
+
+.BlueHover {
+   
+     background-color:#000f1a;
+    box-shadow:2px 2px 5px black;
+    //color:#000f1a;
+    color:white;
+
+    &:hover{
+        color:#fff;
+        background-color:#001f33;
+    }
+}
+
+.TextColorHover {
+    &:hover {
+        color:white;
+        background-color: #001f33;
+    }
+    &:focus {
+        color:white;
+        background-color: #001f33;
+    }
+}

@@ -1,0 +1,74 @@
+﻿.HeaderImage {
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:100%;
+    height:50vh;
+}
+
+.HeaderImage1 {
+    @extend .HeaderImage;
+background-image: url("../../Images/PersonalProfile/tempimage.jpg");
+}
+
+.HeaderImage2 {
+    @extend .HeaderImage;
+background-image: url("../../Images/PersonalProfile/tempimage.jpg");
+}
+
+.HeaderImage3 {
+    @extend .HeaderImage;
+background-image: url("../../Images/PersonalProfile/tempimage.jpg");
+}
+
+.HeaderImage4 {
+    @extend .HeaderImage;
+background-image: url("../../Images/PersonalProfile/tempimage.jpg");
+}
+
+.HeaderImage5 {
+    @extend .HeaderImage;
+background-image: url("../../Images/PersonalProfile/tempimage.jpg");
+}
+
+.HeaderImage6 {
+    @extend .HeaderImage;
+    background-image: url("../../Images/PersonalProfile/tempimage.jpg");
+}
+
+.HeaderImage7 {
+    @extend .HeaderImage;
+    background-image: url("../../Images/PersonalProfile/tempimage.jpg");
+}
+
+.HeaderImage8 {
+    @extend .HeaderImage;
+    background-image: url("../../Images/PersonalProfile/tempimage.jpg");
+}
+
+.HeaderImage9 {
+    @extend .HeaderImage;
+    background-image: url("../../Images/PersonalProfile/tempimage.jpg");
+}
+
+.HeaderImage10 {
+    @extend .HeaderImage;
+    background-image: url("../../Images/PersonalProfile/tempimage.jpg");
+}
+
+.HeaderImage11 {
+    @extend .HeaderImage;
+    background-image: url("../../Images/PersonalProfile/tempimage.jpg");
+}
+
+.HeaderImage12 {
+    @extend .HeaderImage;
+    background-image: url("../../Images/PersonalProfile/tempimage.jpg");
+}
+
+    section {
+        margin:0;
+        padding:0;
+        width:100%;
+        height:100vh;
+    }
